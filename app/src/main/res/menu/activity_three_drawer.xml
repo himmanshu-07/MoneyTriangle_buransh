@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Add New Member" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="Task Accomplished" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:title="View Bills" />
+        <item
+            android:id="@+id/nav_tools"
+            android:title="Transaction History" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/set"
+            android:title="Settings" />
+        <item
+            android:id="@+id/lout"
+            android:title="Logout" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:title="Share Report" />
+            <item
+                android:id="@+id/nav_send"
+                android:title= "Send Message" />
+        </menu>
+    </item>
+
+</menu>
